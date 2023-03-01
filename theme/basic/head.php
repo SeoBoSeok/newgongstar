@@ -66,7 +66,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
       <span class="menu-title__english">Customers</span>
       <span class="menu-title__korean">고객 리스트</span>
     </a>
-    <a href="/views/pages/page__project-request.html" data-name="nav-main-item">
+    <a href="/request" data-name="nav-main-item">
       <span class="menu-title__english">Project Request</span>
       <span class="menu-title__korean">프로젝트 의뢰</span>
     </a>
