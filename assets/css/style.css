@@ -11049,7 +11049,7 @@ body {
   margin-left: auto;
 }
 .nav-container__main .nav__main {
-  display: flex;
+  display: inline-flex;
   flex-flow: column nowrap;
   margin-left: 5.6rem;
   margin-top: 18.6rem;

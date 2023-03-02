@@ -59,7 +59,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
     <script
       type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4e05d6b07012b14d47242e9048b9d17b"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=81f3a0efe25f4856915b02b4b9612bf0"
     ></script>
     <script>
       var container = document.getElementById("map"); //지도를 담을 영역의 DOM 레퍼런스

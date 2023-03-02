@@ -17,53 +17,6 @@ include_once(G5_THEME_PATH.'/head.php');
 <script>
   document.querySelector('body').classList = 'page__company-intro';
 </script>
-<div class="nav-container__main" data-name="nav-container__main">
-  <div class="nav__main-header">
-    <a href="/views/pages/page__landing.html" class="logo">
-      <img src="../../assets/img/GONGSTAR-color=Default.svg" alt="LOGO" />
-    </a>
-    <button class="nav-close-btn__main" data-name="nav-close-btn__main"></button>
-  </div>
-  <nav class="nav__main" data-name="nav-main-wrapper">
-    <a href="/views/pages/page__company-intro.html" data-name="nav-main-item">
-      <span class="menu-title__english">Company</span>
-      <span class="menu-title__korean">회사소개</span>
-    </a>
-    <a href="/views/pages/page__portfolio.html" data-name="nav-main-item">
-      <span class="menu-title__english">Portfolio</span>
-      <span class="menu-title__korean">포트폴리오</span>
-    </a>
-    <a href="/views/pages/page__customers.html" data-name="nav-main-item">
-      <span class="menu-title__english">Customers</span>
-      <span class="menu-title__korean">고객 리스트</span>
-    </a>
-    <a href="/views/pages/page__project-request.html" data-name="nav-main-item">
-      <span class="menu-title__english">Project Request</span>
-      <span class="menu-title__korean">프로젝트 의뢰</span>
-    </a>
-    <a href="/views/pages/page__contact-us.html" data-name="nav-main-item">
-      <span class="menu-title__english">Contact Us</span>
-      <span class="menu-title__korean">연락처</span>
-    </a>
-  </nav>
-  <div class="nav__project-request-button"  data-name="global-nav__project-request">
-    <img src="../../assets/img/img-request-button.svg" alt="">
-  </div>
-  <div class="nav__social">
-    <div class="social-info">
-      <button class="icon-button__download"></button>
-      <button class="icon-button__instagram"></button>
-      <button class="icon-button__kakao"></button>
-      <div class="phone-number">
-        <span class="key">T</span>                
-        <span class="value">010 4351 3412</span>                
-      </div>
-    </div>
-  </div>
-  <div class="nav__main-copyright">
-    <img src="../../assets/img/copyright.svg" alt="">
-  </div>
-</div>
 
 <div class="container__page">
   <main class="main__content main__content--border">
@@ -84,7 +37,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
     <!-- ANCHOR SECIONT - PROBLEM SOLVING -------------------------------------- -->
     <section
-      class="section__problem-solving"]
+      class="section__problem-solving"
     >
       <h2 >
         지역사회와 함께하는 디자인 스튜디오,<br />공스타에서 당면한 디자인
@@ -312,4 +265,4 @@ include_once(G5_THEME_PATH.'/head.php');
   </main>
 </div>
 <?php
-include_once(G5_THEME_PATH.'/tail.php');
+include_once(G5_THEME_PATH.'/tail2.php');

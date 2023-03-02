@@ -73,7 +73,14 @@ var g5_admin_url = "<?php echo G5_ADMIN_URL; ?>";
 </script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<?php
+$res = preg_replace("/\//i", "", (parse_url($_SERVER['REQUEST_URI'])['path']));
+if ($res != 'intro') {
+?>
 <link rel="stylesheet" href="<?php echo G5_ASSETS_PATH; ?>/libs/aos@3.0.0-beta.6/aos.css" />
+<?php
+}
+?>
 <link rel="stylesheet" href="<?php echo G5_ASSETS_PATH; ?>/css/style.css" />
 <?php
 if(!defined('G5_IS_ADMIN'))

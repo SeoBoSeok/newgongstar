@@ -124,7 +124,7 @@
   .nav__main-header {
     @include header-base-layout();
     @include header-landing-layout();
-    display: flex;
+    display: inline-flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: flex-start;
